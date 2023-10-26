@@ -1,0 +1,113 @@
+*body{
+    padding: 0;
+}
+
+.li1{
+    display:grid;
+    grid-template-columns: 15% auto;
+    font-size: small;
+   
+}
+.right{
+   
+    display: inline-flex;
+    align-content: right;
+    justify-self: end;
+}
+.container{
+   
+    display: flex;
+    flex-direction: column;
+}
+.sec1{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.sec101{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.med{
+    width: 25rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.med button{
+    background-color: rgba(209, 193, 193, 0.331);
+    color: black;
+    font-size: 8px;
+}
+.form{
+    width: 30rem;
+    padding: 1.5rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow:  5px 5px 10px gray;
+}
+.bt{
+    position: relative;
+}
+.vanilla{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+}
+.sec1-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.item1{
+    display: flex;
+    flex-direction: row;
+  
+}
+.sec2{
+    background-color: rgb(201, 201, 243);
+    display: flex;
+    flex-direction: column;
+}
+.sec201{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec202{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    gap:1rem;
+}
+.tit{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+.sec303{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sec301{
+    width: 30rem;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
