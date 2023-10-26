@@ -111,3 +111,10 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.sec3-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;"
+    justify-content: space-between;
+}
